@@ -5343,6 +5343,24 @@ var routes = [{
     return __webpack_require__.e(/*! import() */ "resources_js_Pages_products_vue").then(__webpack_require__.bind(__webpack_require__, /*! ../Pages/products.vue */ "./resources/js/Pages/products.vue"));
   },
   name: 'producs'
+}, {
+  path: '/component1',
+  component: function component() {
+    return __webpack_require__.e(/*! import() */ "resources_js_Pages_component1_vue").then(__webpack_require__.bind(__webpack_require__, /*! ../Pages/component1.vue */ "./resources/js/Pages/component1.vue"));
+  },
+  name: 'component1'
+}, {
+  path: '/component2',
+  component: function component() {
+    return __webpack_require__.e(/*! import() */ "resources_js_Pages_component2_vue").then(__webpack_require__.bind(__webpack_require__, /*! ../Pages/component2.vue */ "./resources/js/Pages/component2.vue"));
+  },
+  name: 'component2'
+}, {
+  path: '/component3',
+  component: function component() {
+    return __webpack_require__.e(/*! import() */ "resources_js_Pages_component3_vue").then(__webpack_require__.bind(__webpack_require__, /*! ../Pages/component3.vue */ "./resources/js/Pages/component3.vue"));
+  },
+  name: 'component3'
 }];
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (routes);
 
@@ -45761,7 +45779,7 @@ module.exports = JSON.parse('{"name":"axios","version":"0.21.4","description":"P
 /******/ 		// This function allow to reference async chunks
 /******/ 		__webpack_require__.u = (chunkId) => {
 /******/ 			// return url for filenames not based on template
-/******/ 			if ({"resources_js_Pages_AddUser_vue":1,"resources_js_Pages_Users_vue":1,"resources_js_Pages_addProduct_vue":1,"resources_js_Pages_products_vue":1}[chunkId]) return "js/" + chunkId + ".js";
+/******/ 			if ({"resources_js_Pages_AddUser_vue":1,"resources_js_Pages_Users_vue":1,"resources_js_Pages_addProduct_vue":1,"resources_js_Pages_products_vue":1,"resources_js_Pages_component1_vue":1,"resources_js_Pages_component2_vue":1,"resources_js_Pages_component3_vue":1}[chunkId]) return "js/" + chunkId + ".js";
 /******/ 			// return url for filenames based on template
 /******/ 			return undefined;
 /******/ 		};
